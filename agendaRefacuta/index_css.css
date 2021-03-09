@@ -1,0 +1,82 @@
+body {
+   background-color:white;
+}
+
+h1{
+    width: 50%;
+    margin: auto;
+    font-size: 30px;
+    padding: 100px;
+    text-align: center;
+    font-size:50px;
+    font-family:cursive;
+    color: navy;
+
+}
+
+label{
+    color: navy;
+    font-weight: bold;
+    padding: 30px;
+}
+
+div{
+    padding: 80px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contactBtn:hover{
+    background-color: rgb(173, 134, 134);
+
+}
+
+.contactBtn{
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #e7e7e7;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+form {
+    display: block;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .6);    
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+table{
+    width: 100px;
+    margin: auto;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+th{
+    padding: 50px;
+}
+
+tr{
+    padding: 50px;
+}
+
+.modificare{
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #e7e7e7;
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+.sterge{
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #e7e7e7;
+    text-align: center;
+    padding: 10px 20px;
+}

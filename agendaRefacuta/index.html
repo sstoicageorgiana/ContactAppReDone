@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ContactApp</title>
+    <link rel="stylesheet" type="text/css" href="index_css.css" />
+</head>
+</head>
+
+<body onload="getContacte();">
+    <h1>ContactApp</h1>
+    <div>
+        <form>
+            <label>
+                Name:
+                <input type="text" name="nume" id="numele" />
+            </label>
+            <label>
+                Telefon :
+                <input type="text" name="telefon" id="telefonul" onkeypress="telInput(this, event)" />
+            </label>
+            <input class="contactBtn" type="button" value="Add Contact" name="contact" onclick="modificaPasul2();" />
+        </form>
+        <table class="agenda">
+            <thead>
+                <tr class="cell">
+                    <th>Nume</th>
+                    <th>Telefon</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+
+        </table>
+    </div>
+    <script src="index_js.js"></script>
+</body>
+
+</html>
